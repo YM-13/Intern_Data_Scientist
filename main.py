@@ -35,7 +35,7 @@ class Clients:
 
 	@classmethod
 	def count_customers(cls, n_customers, n_first_id_c=0):
-		"""Method counts customers in groups"""
+		"""The method counts customers in groups"""
 		if n_first_id_c < n_customers:
 			[cls.__group_clients(id_c) for id_c in range(n_first_id_c, n_customers + 1)]
 
